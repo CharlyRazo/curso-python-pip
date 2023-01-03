@@ -9,11 +9,18 @@ python3 main.py
 
 # App Project
 
-Clonar el proyecto  --> dirigirse a la carpeta de la aplicacion--> activar el ambiente --> correr el archivo
+Pasos a seguir para correr la aplicación junto con el código para la terminal: 
+- Clonar el repositorio del proyecto
+- Dirigirse a la carpeta de la aplicacion
+- Generar un ambiente 'env' 
+- Activar el ambiente 
+- Instalar los paquetes para este proyecto
+- Correr el archivo
 
 ```sh
 git clone 
 cd app
+python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
